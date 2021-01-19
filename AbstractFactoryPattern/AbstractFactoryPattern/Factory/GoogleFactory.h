@@ -1,4 +1,4 @@
-//
+//  特定工厂类
 //  GoogleFactory.h
 //  AbstractFactoryPattern
 //
@@ -8,7 +8,6 @@
 
 #import "BaseFactory.h"
 #import "Android.h"
-#import "AndroidWatch.h"
 
 @interface GoogleFactory : BaseFactory
 

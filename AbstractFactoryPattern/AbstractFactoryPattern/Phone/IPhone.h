@@ -1,4 +1,4 @@
-//
+//  特定商品类
 //  IPhone.h
 //  AbstractFactoryPattern
 //
@@ -6,11 +6,11 @@
 //  Copyright © 2020年 haijunyan. All rights reserved.
 //
 
-#import "BasePhone.h"
+#import "BaseGoods.h"
 
-@interface IPhone : BasePhone
+@interface IPhone : BaseGoods
 
-//指纹识别
+//指纹识别(特定商品事件)
 - (void)fingerprintIndetification;
 
 @end

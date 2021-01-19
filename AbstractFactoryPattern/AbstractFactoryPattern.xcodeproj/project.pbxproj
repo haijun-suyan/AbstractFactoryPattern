@@ -15,10 +15,7 @@
 		7689B3CB1E67D3750073D01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7689B3C91E67D3750073D01E /* LaunchScreen.storyboard */; };
 		7689B3D61E67D3750073D01E /* AbstractFactoryPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3D51E67D3750073D01E /* AbstractFactoryPatternTests.m */; };
 		7689B3E11E67D3750073D01E /* AbstractFactoryPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3E01E67D3750073D01E /* AbstractFactoryPatternUITests.m */; };
-		7689B3F71E67D39A0073D01E /* BaseWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3F21E67D39A0073D01E /* BaseWatch.m */; };
-		7689B3F81E67D39A0073D01E /* IWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3F41E67D39A0073D01E /* IWatch.m */; };
-		7689B3F91E67D39A0073D01E /* AndroidWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3F61E67D39A0073D01E /* AndroidWatch.m */; };
-		7689B4001E67D3A40073D01E /* BasePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3FB1E67D3A40073D01E /* BasePhone.m */; };
+		7689B4001E67D3A40073D01E /* BaseGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3FB1E67D3A40073D01E /* BaseGoods.m */; };
 		7689B4011E67D3A40073D01E /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3FD1E67D3A40073D01E /* IPhone.m */; };
 		7689B4021E67D3A40073D01E /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B3FF1E67D3A40073D01E /* Android.m */; };
 		7689B4091E67D3AB0073D01E /* BaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689B4041E67D3AB0073D01E /* BaseFactory.m */; };
@@ -61,14 +58,8 @@
 		7689B3DC1E67D3750073D01E /* AbstractFactoryPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7689B3E01E67D3750073D01E /* AbstractFactoryPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryPatternUITests.m; sourceTree = "<group>"; };
 		7689B3E21E67D3750073D01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7689B3F11E67D39A0073D01E /* BaseWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWatch.h; sourceTree = "<group>"; };
-		7689B3F21E67D39A0073D01E /* BaseWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWatch.m; sourceTree = "<group>"; };
-		7689B3F31E67D39A0073D01E /* IWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWatch.h; sourceTree = "<group>"; };
-		7689B3F41E67D39A0073D01E /* IWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWatch.m; sourceTree = "<group>"; };
-		7689B3F51E67D39A0073D01E /* AndroidWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidWatch.h; sourceTree = "<group>"; };
-		7689B3F61E67D39A0073D01E /* AndroidWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidWatch.m; sourceTree = "<group>"; };
-		7689B3FA1E67D3A40073D01E /* BasePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePhone.h; sourceTree = "<group>"; };
-		7689B3FB1E67D3A40073D01E /* BasePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePhone.m; sourceTree = "<group>"; };
+		7689B3FA1E67D3A40073D01E /* BaseGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGoods.h; sourceTree = "<group>"; };
+		7689B3FB1E67D3A40073D01E /* BaseGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGoods.m; sourceTree = "<group>"; };
 		7689B3FC1E67D3A40073D01E /* IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
 		7689B3FD1E67D3A40073D01E /* IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
 		7689B3FE1E67D3A40073D01E /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
@@ -81,7 +72,7 @@
 		7689B4081E67D3AB0073D01E /* GoogleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
 		7689B40C1E67D3B30073D01E /* FactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
 		7689B40D1E67D3B30073D01E /* FactoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryManager.m; sourceTree = "<group>"; };
-		7689B40F1E67D4E80073D01E /* PhoneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
+		7689B40F1E67D4E80073D01E /* GoodsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +131,6 @@
 				7689B40D1E67D3B30073D01E /* FactoryManager.m */,
 				7689B3F01E67D3920073D01E /* Factory */,
 				7689B3EF1E67D38D0073D01E /* Phone */,
-				7689B3EE1E67D3870073D01E /* Watch */,
 				7689B3C41E67D3750073D01E /* Main.storyboard */,
 				7689B3C71E67D3750073D01E /* Assets.xcassets */,
 				7689B3C91E67D3750073D01E /* LaunchScreen.storyboard */,
@@ -176,29 +166,16 @@
 			path = AbstractFactoryPatternUITests;
 			sourceTree = "<group>";
 		};
-		7689B3EE1E67D3870073D01E /* Watch */ = {
-			isa = PBXGroup;
-			children = (
-				7689B3F11E67D39A0073D01E /* BaseWatch.h */,
-				7689B3F21E67D39A0073D01E /* BaseWatch.m */,
-				7689B3F31E67D39A0073D01E /* IWatch.h */,
-				7689B3F41E67D39A0073D01E /* IWatch.m */,
-				7689B3F51E67D39A0073D01E /* AndroidWatch.h */,
-				7689B3F61E67D39A0073D01E /* AndroidWatch.m */,
-			);
-			path = Watch;
-			sourceTree = "<group>";
-		};
 		7689B3EF1E67D38D0073D01E /* Phone */ = {
 			isa = PBXGroup;
 			children = (
-				7689B3FA1E67D3A40073D01E /* BasePhone.h */,
-				7689B3FB1E67D3A40073D01E /* BasePhone.m */,
 				7689B3FC1E67D3A40073D01E /* IPhone.h */,
 				7689B3FD1E67D3A40073D01E /* IPhone.m */,
 				7689B3FE1E67D3A40073D01E /* Android.h */,
 				7689B3FF1E67D3A40073D01E /* Android.m */,
-				7689B40F1E67D4E80073D01E /* PhoneProtocol.h */,
+				7689B3FA1E67D3A40073D01E /* BaseGoods.h */,
+				7689B3FB1E67D3A40073D01E /* BaseGoods.m */,
+				7689B40F1E67D4E80073D01E /* GoodsProtocol.h */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -206,12 +183,12 @@
 		7689B3F01E67D3920073D01E /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				7689B4031E67D3AB0073D01E /* BaseFactory.h */,
-				7689B4041E67D3AB0073D01E /* BaseFactory.m */,
 				7689B4051E67D3AB0073D01E /* AppleFactory.h */,
 				7689B4061E67D3AB0073D01E /* AppleFactory.m */,
 				7689B4071E67D3AB0073D01E /* GoogleFactory.h */,
 				7689B4081E67D3AB0073D01E /* GoogleFactory.m */,
+				7689B4031E67D3AB0073D01E /* BaseFactory.h */,
+				7689B4041E67D3AB0073D01E /* BaseFactory.m */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -302,6 +279,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -352,15 +330,12 @@
 				7689B40A1E67D3AB0073D01E /* AppleFactory.m in Sources */,
 				7689B4021E67D3A40073D01E /* Android.m in Sources */,
 				7689B40E1E67D3B30073D01E /* FactoryManager.m in Sources */,
-				7689B3F71E67D39A0073D01E /* BaseWatch.m in Sources */,
 				7689B40B1E67D3AB0073D01E /* GoogleFactory.m in Sources */,
-				7689B3F91E67D39A0073D01E /* AndroidWatch.m in Sources */,
 				7689B3C31E67D3750073D01E /* ViewController.m in Sources */,
-				7689B3F81E67D39A0073D01E /* IWatch.m in Sources */,
 				7689B3C01E67D3750073D01E /* AppDelegate.m in Sources */,
 				7689B3BD1E67D3750073D01E /* main.m in Sources */,
 				7689B4011E67D3A40073D01E /* IPhone.m in Sources */,
-				7689B4001E67D3A40073D01E /* BasePhone.m in Sources */,
+				7689B4001E67D3A40073D01E /* BaseGoods.m in Sources */,
 				7689B4091E67D3AB0073D01E /* BaseFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +566,7 @@
 				7689B3E71E67D3750073D01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7689B3E81E67D3750073D01E /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +575,7 @@
 				7689B3EA1E67D3750073D01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7689B3EB1E67D3750073D01E /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +584,7 @@
 				7689B3ED1E67D3750073D01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

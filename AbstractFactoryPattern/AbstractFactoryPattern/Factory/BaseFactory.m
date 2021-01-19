@@ -10,15 +10,8 @@
 
 @implementation BaseFactory
 
-- (BasePhone *)createPhone {
-    
+- (BaseGoods *)createPhone {
     return nil;
 }
-
-- (BaseWatch *)createWatch {
-    
-    return nil;
-}
-
 
 @end

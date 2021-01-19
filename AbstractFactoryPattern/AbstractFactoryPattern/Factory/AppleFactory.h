@@ -1,4 +1,4 @@
-//
+//  特定工厂类
 //  AppleFactory.h
 //  AbstractFactoryPattern
 //
@@ -8,8 +8,6 @@
 
 #import "BaseFactory.h"
 #import "IPhone.h"
-#import "IWatch.h"
-
 
 @interface AppleFactory : BaseFactory
 

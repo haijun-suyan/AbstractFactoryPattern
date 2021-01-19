@@ -1,5 +1,5 @@
-//
-//  PhoneProtocol.h
+//  商品通用基础类
+//  BaseGoods.h
 //  AbstractFactoryPattern
 //
 //  Created by haijunyan on 2020/3/2.
@@ -7,13 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GoodsProtocol.h"
 
-@protocol PhoneProtocol <NSObject>
-
-//打电话
-- (void)phoneCall;
-
-//发短信
-- (void)sendMessage;
+@interface BaseGoods : NSObject <GoodsProtocol>
 
 @end

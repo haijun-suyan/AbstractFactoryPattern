@@ -1,4 +1,4 @@
-//
+//  工厂通用基础类
 //  BaseFactory.h
 //  AbstractFactoryPattern
 //
@@ -7,15 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BasePhone.h"
-#import "BaseWatch.h"
+#import "BaseGoods.h"
 
 
 @interface BaseFactory : NSObject
 
-- (BasePhone *)createPhone;
+- (BaseGoods *)createPhone;
 
-- (BaseWatch *)createWatch;
 
 
 @end

@@ -1,4 +1,4 @@
-//
+//  特定商品类
 //  Android.h
 //  AbstractFactoryPattern
 //
@@ -6,12 +6,10 @@
 //  Copyright © 2020年 haijunyan. All rights reserved.
 //
 
-#import "BasePhone.h"
+#import "BaseGoods.h"
 
-@interface Android : BasePhone
-
-//定制主题
+@interface Android : BaseGoods
+//定制主题(特定商品事件)
 - (void)customTheme;
-
 
 @end

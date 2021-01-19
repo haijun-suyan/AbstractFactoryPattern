@@ -1,4 +1,4 @@
-//
+//  事件函数的返回值表面特征为X,则return指令的实际返回值可以是X实例也可以为X子类实例(多态特性)
 //  FactoryManager.m
 //  AbstractFactoryPattern
 //
@@ -12,16 +12,11 @@
 
 + (BaseFactory *)factoryWithBrand:(KFactoryType)factoryType {
     BaseFactory *factory = nil;
-    
     if (factoryType == KApple) {
-        
         factory = [[AppleFactory alloc] init];
-        
     } else if (factoryType == KGoogle) {
-        
         factory = [[GoogleFactory alloc] init];
     }
-    
     return factory;
 
 }
