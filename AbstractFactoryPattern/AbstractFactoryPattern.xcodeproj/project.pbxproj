@@ -127,8 +127,7 @@
 				7689B3BF1E67D3750073D01E /* AppDelegate.m */,
 				7689B3C11E67D3750073D01E /* ViewController.h */,
 				7689B3C21E67D3750073D01E /* ViewController.m */,
-				7689B40C1E67D3B30073D01E /* FactoryManager.h */,
-				7689B40D1E67D3B30073D01E /* FactoryManager.m */,
+				F3B72C982AFCD2A600656745 /* FactoryManager */,
 				7689B3F01E67D3920073D01E /* Factory */,
 				7689B3EF1E67D38D0073D01E /* Phone */,
 				7689B3C41E67D3750073D01E /* Main.storyboard */,
@@ -173,9 +172,7 @@
 				7689B3FD1E67D3A40073D01E /* IPhone.m */,
 				7689B3FE1E67D3A40073D01E /* Android.h */,
 				7689B3FF1E67D3A40073D01E /* Android.m */,
-				7689B3FA1E67D3A40073D01E /* BaseGoods.h */,
-				7689B3FB1E67D3A40073D01E /* BaseGoods.m */,
-				7689B40F1E67D4E80073D01E /* GoodsProtocol.h */,
+				F3B72C972AFCCED900656745 /* BaseGoods */,
 			);
 			path = Phone;
 			sourceTree = "<group>";
@@ -191,6 +188,25 @@
 				7689B4041E67D3AB0073D01E /* BaseFactory.m */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		F3B72C972AFCCED900656745 /* BaseGoods */ = {
+			isa = PBXGroup;
+			children = (
+				7689B3FA1E67D3A40073D01E /* BaseGoods.h */,
+				7689B3FB1E67D3A40073D01E /* BaseGoods.m */,
+				7689B40F1E67D4E80073D01E /* GoodsProtocol.h */,
+			);
+			path = BaseGoods;
+			sourceTree = "<group>";
+		};
+		F3B72C982AFCD2A600656745 /* FactoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				7689B40C1E67D3B30073D01E /* FactoryManager.h */,
+				7689B40D1E67D3B30073D01E /* FactoryManager.m */,
+			);
+			path = FactoryManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
